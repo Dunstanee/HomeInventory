@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 10, 2020, 8:46:05 PM
+    Author     : Dunstan
+*/
+
+body{
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    background-color: maroon;
+    padding: 10px;
+    color:white;
+    
+}
+.menu{
+    text-align: center;
+}
+.title{
+    font-size:30px;
+    text-align: center;
+}
+.border_login{
+    border-color: maroon;
+    border-width: 2px;
+    
+}
+.loginbody{
+    margin-top: 3%;
+   
+    padding: 20px;
+}
+.loginbody table{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid maroon;
+    width: 35%;
+    margin: auto;
+}
+.loginbody table tr td{
+   padding: 10px;
+}
+.inp{
+    margin: 2px;
+    padding: 7px;
+    width: 80%;
+}
+.sub_button{
+    background-color: maroon;
+    padding: 10px;
+    border: none;
+    color: white;
+    width: 80%;
+    cursor: pointer;
+    
+}
+.signup_button{
+   background-color: navy;
+    padding: 7px  50px 7px 50px;
+    border: none;
+    color: white;
+    width: 80%;
+    cursor: pointer; 
+    text-decoration: none;
+}
+.menulist {
+    color: white;
+   
+}
+.lists li {
+    
+ padding-left: 20px;  
+    display: inline;
+    flex-direction: row;
+}
+.lists li a{
+    text-decoration: none;
+    color: white;
+    display: inline;
+    flex-direction: row;
+}
+.UserDetails{
+    text-align: center;
+    border: 2px solid maroon;
+}
+.UserDetails ul li{
+    padding-left: 20px;  
+    display: inline;
+    flex-direction: row;
+}
+.product-list{
+    padding: 20px;
+    
+}
+.product-list table{
+    width: 80%;
+    margin: auto;
+    
+}
+.product-list table th{
+    
+    padding: 10px;
+    text-align: center;
+    background-color: navy;
+    color: white;
+}
+.product-list table td{
+    
+    padding: 10px;
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+   
+}
